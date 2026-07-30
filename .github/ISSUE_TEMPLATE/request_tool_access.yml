@@ -2,9 +2,6 @@ name: Onboarding to XYZ
 description: Request Access to XYZ platform.
 title: "[XYZ Onboarding]: "
 labels: ["onboarding","xyz"]
-assignees:
-  - karenns
-type: custom
 body:
   - type: markdown
     attributes:
@@ -38,12 +35,12 @@ body:
       label: Version
       description: What version would you like access?
       options:
-        - 2.0 (latest)
-        - 1.9
-        - 1.8
-        - 1.7
-        - 1.6
-        - 1.5
-      default: 2.0
+        - "2.0 (latest)"
+        - "1.9"
+        - "1.8"
+        - "1.7"
+        - "1.6"
+        - "1.5"
+      default: 0
     validations:
       required: true

@@ -2,7 +2,6 @@ name: Onboarding to ABC
 description: Request Access to ABC platform.
 title: "[ABC Onboarding]: "
 labels: ["onboarding","ABC"]
-type: custom
 body:
   - type: markdown
     attributes:

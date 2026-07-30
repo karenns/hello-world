@@ -1,0 +1,49 @@
+name: Onboarding to XYZ
+description: Request Access to XYZ platform.
+title: "[XYZ Onboarding]: "
+labels: ["onboarding","xyz"]
+assignees:
+  - karenns
+type: custom
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let's get you onboarded to our new XYZ platform!
+  - type: input
+    id: team-name
+    attributes:
+      label: Team's Name
+      description: What's your team's name?
+    validations:
+      required: true
+  - type: input
+    id: team-id
+    attributes:
+      label: Team's ID
+      description: What's your team's ID?
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Contact Details
+      description: What's your email address?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version would you like access?
+      options:
+        - 2.0 (latest)
+        - 1.9
+        - 1.8
+        - 1.7
+        - 1.6
+        - 1.5
+      default: 2.0
+    validations:
+      required: true

@@ -8,6 +8,13 @@ body:
       value: |
         Let's get you onboarded to our new XYZ platform!
   - type: input
+    id: department
+    attributes:
+      label: Department
+      description: What's your department?
+    validations:
+      required: true
+  - type: input
     id: team-name
     attributes:
       label: Team's Name
